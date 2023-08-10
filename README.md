@@ -1,0 +1,3 @@
+- as the name sugggests
+- folder structure similar to fufexan's eww config
+- scss loader included
