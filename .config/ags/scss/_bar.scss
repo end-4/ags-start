@@ -1,0 +1,48 @@
+.bar-bg {
+    background-color: $winbackground;
+    min-height: 2.727rem;
+}
+
+.bar-ws {
+    min-height: 1.705rem;
+    min-width: 1.705rem;
+    font-size: 1.091rem;
+}
+
+.bar-ws-empty {}
+
+.bar-ws-occupied {
+    background-color: $secondaryContainer;
+    color: $onSecondaryContainer;
+}
+
+.bar-ws-active {
+    // border-radius: 999px;
+    background-color: $primary;
+    color: $onPrimary;
+}
+
+.bar-ws-left {
+    border-top-left-radius: 999px;
+    border-bottom-left-radius: 999px;
+}
+
+.bar-ws-right {
+    border-top-right-radius: 999px;
+    border-bottom-right-radius: 999px;
+}
+
+.bar-ws-alone {
+    border-radius: 999px;
+}
+
+.bar-batt {
+    border-radius: 999px;
+    padding: 0.205rem 0.341rem;
+    background-color: $primary;
+    color: $onPrimary;
+}
+
+.bar-sidemodule {
+    min-width: 25.227rem;
+}

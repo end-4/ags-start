@@ -1,0 +1,11 @@
+// Colors
+@import './material';
+$winbackground: transparentize($background, 0.2);
+
+// Reset
+* {
+    all: unset;
+}
+
+// Components
+@import './bar'
